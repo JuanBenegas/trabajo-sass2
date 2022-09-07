@@ -1,0 +1,9 @@
+Se me ocurrio una pagina sobre conejos.
+Empece a crear todos los archivos necesarios de SASS, index y css.
+
+Realice la conexion entre SASS y CSS.
+Añadi la estructura basica de html en index.html
+Cree el block header
+
+Le di una dimension a la pagina y añadí bootstrap
+Coloque un carousel con sus imagenes

@@ -9,4 +9,11 @@
 
 
 @import './sections/header';
+@import './sections/main-index';
+
+.pagina-tamanio{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 
