@@ -2,59 +2,136 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="./assets/favicon.png">
-    <title>Aplicando SASS 2</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- KEYWORDS -->
+  <meta name="keywords" content="enciclopedia, conejo, oryctolagus cuniculus, animal">
+  <!-- DESCIPCION -->
+  <meta name="description" content="Aquí encontraras información sobre oryctolagus cuniculus o conejos, una descripcion sobre ellos, su distribución, hábitat y comportamiento.">
+  <link rel="icon" type="image/x-icon" href="./assets/favicon.png">
+  <title>Enciclopedia | Inicio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-        <!-- BLOCK -->
-        <header class="header">
-            <!-- Elemento Imagen -->
-            <img class="header__img" src="./assets/logo-index.png" alt="Logo">
-            <!-- Elemento Nav -->
-            <nav class="header__nav">
-                <ul class="header__ul">
-                    <li><a class="header__ul--active" href="#">INICIO</a></li>
-                    <li><a href="#">GALERIA</a></li>
-                    <li><a href="#">PRODUCTOS</a></li>
-                    <li><a href="#">SERVICIOS</a></li>
-                    <li><a href="#">CONTACTO</a></li>
-                </ul>
-            </nav>
-        </header>
+  <!-- BLOCK -->
+  <header class="header">
+    <!-- Elemento Imagen -->
+    <img class="header__img" src="./assets/logo-index.png" alt="Logo">
+    <!-- Elemento Nav -->
+    <nav class="header__nav">
+      <ul class="header__ul">
+        <li><a class="header__ul--active" href="#">INICIO</a></li>
+        <li><a href="#">GALERIA</a></li>
+        <li><a href="#">PRODUCTOS</a></li>
+        <li><a href="#">SERVICIOS</a></li>
+        <li><a href="#">CONTACTO</a></li>
+      </ul>
+    </nav>
+  </header>
 
-        <!-- MAIN -->
-        <main>
-            <section class="principal">
-                <h1>NO TENGO NI PUTA IDEA</h1>
-                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="./assets/favicon.png" class="d-block w-100" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="./assets/logo-index.png" class="d-block w-100" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="./assets/conejo-three.webp" class="d-block w-100" alt="...">
-                      </div>
-                    </div>
-                  </div>
-            </section>
+  <!-- MAIN -->
+  <main>
+    <section class="principal">
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assets/conejo-one.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/conejo-two.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/conejo-three.webp" class="d-block w-100" alt="...">
+          </div>
+        </div>
+      </div>
+    </section>
 
-            <section class="secundario">
+    <section class="secundario">
+      <h1>CONEJOS</h1>
+    </section>
 
-            </section>
-        </main>
+    <section class="terciario">
+      <img class="terciario__img" src="./assets/Oryctolagus-cuniculus.webp" alt="Oryctolagus-cuniculus">
+      <div class="terciario__parrafo">
+        <h3>Descripcion</h3>
+        <br>
+        <hr>
+        <p>Se caracteriza por tener un cuerpo cubierto de un pelaje espeso y lanudo, de color pardo pálido a gris,
+          cabeza ovalada y ojos grandes. Pesa entre 1,5 y 2,5 kg en estado salvaje. <em>Tiene orejas largas</em> de hasta 7 cm
+          las cuales le ayudan a regular la temperatura del cuerpo y una cola muy corta. Sus patas anteriores son más
+          cortas que las posteriores. Mide de 34 a 50 cm en condiciones favorables, incluso más en razas domésticas.
+          Todas estas características que posee esta especie en estado salvaje pueden variar significativamente según la
+          raza.</p>
+        <br>
+        <p><strong>Los machos tienen la cabeza más ancha que las hembras.</strong></p>
+        <br>
+        <p>El conejo salvaje mide de 34 a 50 cm (longitud cabeza y cuerpo), las orejas miden de 4 a 8 cm. Su peso varía
+          de 1,2 a 2,5 kg. Posee una piel de color pardo leonado pelirrojo, a veces colorado que permite su camuflaje
+          para evitar a sus depredadores.</p>
+        <br>
+        <p>La talla de conejos domésticos varía muchísimo de una raza a la otra. El más grande, el gigante de Flandes,
+          puede alcanzar 8 kg y 80 cm de longitud pero el conejo ariete enano sobrepasa apenas 1 kg, a veces menos para
+          los conejos extra enanos. La piel originalmente es gris beige —a veces con matices negros o pelirrojos—, con
+          el vientre más claro y el fondo de la cola (rabo) blanco, mientras que los conejos domésticos presentan
+          colores muy variados, uniformes, degradados o moteados. Existen cerca de ochenta variedades.</p>
+        <br>
+        <p>Los dientes de un conejo, particularmente sus incisivos, crecen sin cesar. El conejo debe constantemente
+          desgastar sus dientes con el fin de evitar que se vuelvan demasiado largos (lo que podría por otro lado
+          herirlo).</p>
+      </div>
+    </section>
+    <br>
+    <section class="cuarta">
+      <div class="cuarta__parrafo">
+        <h3>Distribución</h3>
+        <hr>
+        <br>
+        <p>Era abundante en el Paleolítico, a juzgar por los restos descubiertos en la península
+          ibérica.​ En la
+          actualidad, su área de distribución abarca el norte de África y toda Europa hasta Rusia, siendo introducido en
+          muchos lugares del continente con motivos cinegéticos. A lo largo de la historia también ha sido llevado al
+          estado de Washington (Estados Unidos), Chile, Sudáfrica y Australia, donde los conejos cimarrones se han
+          convertido en la principal plaga del país debido a la ausencia de depredadores y competidores naturales.​</p>
+        <h3>Hábitat</h3>
+        <hr>
+        <br>
+        <p>Vive en áreas secas próximas al nivel del mar con un suelo arenoso y blando para facilitar la construcción de
+          madrigueras. Habitan en bosques aunque prefieren campos extensos cubiertos por matorrales donde pueden
+          esconderse. Antiguamente también eran frecuentes en tierras de cultivo aunque los nuevos métodos de arado
+          incluyen la destrucción de madrigueras de conejos. A pesar de ello, esta especie se ha adaptado a la actividad
+          humana viviendo en parques, campos de césped o incluso cementerios. En ocasiones se encuentran en cultivos
+          agrícolas donde se alimentan de lechuga, granos o raíces cuyo fin era la ingesta humana.</p>
+        <h3>Comportamiento</h3>
+        <hr>
+        <br>
+        <p>El conejo es un animal gregario y territorial (territorios de menos de 15 m², en ocasiones solo uno o dos).
+          En óptimas condiciones de terreno y alimento prefieren vivir en largas y complejas conejeras o madrigueras. En
+          ellas habitan de seis a diez individuos adultos de ambos sexos. La jerarquía de dominancia es importante en
+          los machos ya que establece quién tiene prioridad para el apareamiento.</p>
+      </div>
+      <img class="cuarta__img" src="./assets/conejo-primero.webp" alt="conejo-blanco">
+    </section>
+    <hr>
+    <footer class="footer">
+      <h6>Bibliografia</h6>
+      <a href="https://es.wikipedia.org/wiki/Oryctolagus_cuniculus">Wikipedia</a>
+      <br>
+      <h6>Contacto</h6>
+      <a href="#">Contacto</a>
+      <br>
+    </footer>
+  </main>
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

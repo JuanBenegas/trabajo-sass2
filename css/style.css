@@ -5,11 +5,28 @@
   padding: 0;
   box-sizing: border-box; }
 
+.principal, .secundario, .footer {
+  display: flex;
+  justify-content: center; }
+
+.terciario, .cuarta {
+  display: flex;
+  justify-content: space-evenly; }
+
+.terciario__img, .cuarta__img {
+  max-width: 429px;
+  border: 2px solid #001021;
+  padding: 5px; }
+
+.terciario__parrafo, .cuarta__parrafo {
+  max-width: 1077px;
+  padding: 30px; }
+
 .header {
   background-color: #001021;
   display: flex;
-  justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  justify-content: space-between; }
   .header__img {
     margin-left: 1rem;
     max-width: 100px; }
@@ -25,10 +42,28 @@
       text-decoration: none;
       padding: 10px;
       color: #1481BA;
-      font-family: "Poppins", sans-serif; }
+      font-family: "Poppins", sans-serif;
+      margin: 3px;
+      transition: .3s;
+      border-radius: 20px; }
+    .header__ul li a:hover {
+      background-color: white;
+      color: #1481BA;
+      border-radius: 20px; }
 
-.principal img {
-  max-width: 100%; }
+.principal .carousel {
+  max-width: 1024px;
+  margin-top: 20px; }
+
+.secundario h1 {
+  color: #1481BA;
+  margin: 20px;
+  font-size: 70px;
+  font-style: oblique; }
+
+.footer {
+  flex-direction: column;
+  align-items: center; }
 
 .pagina-tamanio {
   display: flex;

@@ -7,3 +7,16 @@ Cree el block header
 
 Le di una dimension a la pagina y añadí bootstrap
 Coloque un carousel con sus imagenes
+
+Añadí un H1 en la primera seccion
+Añadi imagen y texto
+
+Cree la segunda seccion
+Añadi imagen y texto
+
+Cree el footer y enlace la bibliografia
+
+Agregue la siguientes KeyWords: enciclopedia, conejo, oryctolagus cuniculus, animal
+Usé la siguiente descripcion: Aquí encontraras información sobre oryctolagus cuniculus o conejos, una descripcion sobre ellos, su distribución, hábitat y comportamiento.
+
+Añadí Strong y EM

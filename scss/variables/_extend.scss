@@ -1,0 +1,27 @@
+%flex-justi-center{
+    display: flex;
+    justify-content: center;
+}
+
+%flex-justi-evenly{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+%img{
+    max-width: 429px;
+    border: 2px solid $negrito;
+    padding: 5px;
+}
+
+%parrafo{
+    max-width: 1077px;
+    padding: 30px;
+}
+
+@mixin estilo-h1 ($size){
+    color: $azul-oscurito;
+    margin: 20px;
+    font-size: $size;
+    font-style: oblique;
+}

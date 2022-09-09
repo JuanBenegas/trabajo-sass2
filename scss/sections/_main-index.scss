@@ -1,5 +1,34 @@
 .principal{
-    img{
-        max-width: 100%;
+    @extend %flex-justi-center;
+    .carousel{
+        max-width: 1024px;
+        margin-top: 20px
+    }
+}
+
+.secundario{
+    @extend %flex-justi-center;
+    h1 {
+        @include estilo-h1 (70px);
+    }
+}
+
+.terciario{
+    @extend %flex-justi-evenly;
+    &__img{
+        @extend %img;
+    }
+    &__parrafo{
+        @extend %parrafo;
+    }
+}
+
+.cuarta{
+    @extend %flex-justi-evenly;
+    &__img{
+        @extend %img;
+    }
+    &__parrafo{
+        @extend %parrafo;
     }
 }
